@@ -1,6 +1,6 @@
 # Proyecto Backend Seguro con Express.js
 
-## 📌 Descripción
+##  Descripción
 Este proyecto consiste en la creación de un sistema backend seguro, escalable y eficiente utilizando **Express.js**. Se implementa un sistema de autenticación y autorización basado en **JWT**, con control de acceso por roles (usuario y administrador). Además, se desarrolla una API RESTful con operaciones CRUD para un recurso llamado "posts".
 
 ##  Tecnologías Utilizadas
@@ -11,7 +11,7 @@ Este proyecto consiste en la creación de un sistema backend seguro, escalable y
 - bcryptjs
 - dotenv
 
-## ⚙ Instalación y Ejecución
+## Instalación y Ejecución
 
 1. Clona el repositorio:
 ```bash
@@ -73,10 +73,10 @@ backend-login-project/
 ##  Desafíos y Decisiones
 - Se optó por JWT por su sencillez y portabilidad.
 - Se eligió MongoDB por su flexibilidad y rápida integración con Node.js.
-- Se implementó control de acceso por roles para asegurar operaciones críticas.
+- Se implementó control de aceso por roles para asegurar operaciones críticas.
 
 ##  Estado del Proyecto
-Funcional y probado en entorno local. Listo para ser escalado o desplegado en producción con ajustes mínimos.
+Funcional y probado en entorno local. Listo para ser escalado o desplegado en produccion con ajustes minimos.
 
-## 📎 Enlace al repositorio
-[GitHub: backend-login-project](https://github.com/tu-usuario/backend-login-project)
+##  Enlace al repositorio
+[GitHub: backend-login-project](https://github.com/sergioinfante-create/trabajo/edit/main/README.md))
