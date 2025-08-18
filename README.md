@@ -3,7 +3,7 @@
 ## 📌 Descripción
 Este proyecto consiste en la creación de un sistema backend seguro, escalable y eficiente utilizando **Express.js**. Se implementa un sistema de autenticación y autorización basado en **JWT**, con control de acceso por roles (usuario y administrador). Además, se desarrolla una API RESTful con operaciones CRUD para un recurso llamado "posts".
 
-## 🚀 Tecnologías Utilizadas
+##  Tecnologías Utilizadas
 - Node.js
 - Express.js
 - MongoDB (con Mongoose)
@@ -11,7 +11,7 @@ Este proyecto consiste en la creación de un sistema backend seguro, escalable y
 - bcryptjs
 - dotenv
 
-## ⚙️ Instalación y Ejecución
+## ⚙ Instalación y Ejecución
 
 1. Clona el repositorio:
 ```bash
@@ -37,12 +37,12 @@ JWT_SECRET=supersecretkey
 npm start
 ```
 
-## 🔐 Endpoints de Autenticación
+##  Endpoints de Autenticación
 
 - `POST /api/auth/register`: Registro de usuarios
 - `POST /api/auth/login`: Inicio de sesión (retorna token JWT)
 
-## 📨 Endpoints de Post
+##  Endpoints de Post
 
 > Todas estas rutas requieren autenticación con JWT (en Header: `Authorization: Bearer <token>`)
 
@@ -51,11 +51,11 @@ npm start
 - `PUT /api/posts/:id`: Actualizar un post
 - `DELETE /api/posts/:id`: Eliminar un post (**solo para admins**)
 
-## 👥 Roles y Autorización
+##  Roles y Autorización
 - `user`: Puede crear y ver publicaciones
 - `admin`: Puede además eliminar publicaciones
 
-## 📦 Estructura del Proyecto
+##  Estructura del Proyecto
 
 ```
 backend-login-project/
@@ -70,12 +70,12 @@ backend-login-project/
 └── README.md
 ```
 
-## 🧠 Desafíos y Decisiones
+##  Desafíos y Decisiones
 - Se optó por JWT por su sencillez y portabilidad.
 - Se eligió MongoDB por su flexibilidad y rápida integración con Node.js.
 - Se implementó control de acceso por roles para asegurar operaciones críticas.
 
-## ✅ Estado del Proyecto
+##  Estado del Proyecto
 Funcional y probado en entorno local. Listo para ser escalado o desplegado en producción con ajustes mínimos.
 
 ## 📎 Enlace al repositorio
