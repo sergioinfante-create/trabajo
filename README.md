@@ -15,7 +15,7 @@ Este proyecto consiste en la creación de un sistema backend seguro, escalable y
 
 1. Clona el repositorio:
 ```bash
-git clone https://github.com/tu-usuario/backend-login-project.git
+git clone (https://github.com/sergioinfante-create/trabajo/edit/main/README.md)
 cd backend-login-project
 ```
 
@@ -79,4 +79,4 @@ backend-login-project/
 Funcional y probado en entorno local. Listo para ser escalado o desplegado en produccion con ajustes minimos.
 
 ##  Enlace al repositorio
-[GitHub: backend-login-project](https://github.com/sergioinfante-create/trabajo/edit/main/README.md))
+[GitHub: (https://github.com/sergioinfante-create/trabajo/edit/main/README.md))
